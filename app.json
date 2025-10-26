@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "LearnerHub",
-    "slug": "LearnerHub",
+    "name": "Learners Hub",
+    "slug": "Learners-Hub",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
