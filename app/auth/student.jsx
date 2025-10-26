@@ -92,6 +92,7 @@ export default function Student() {
         value={fullName}
         onChangeText={setFullName}
         style={styles.TextInput}
+        placeholderTextColor="black"
       />
       {nameError ? <Text style={styles.errorText}>{nameError}</Text> : null}
 
@@ -103,6 +104,7 @@ export default function Student() {
         autoCapitalize="none"
         onChangeText={setEmail}
         style={styles.TextInput}
+        placeholderTextColor="black"
       />
       {emailError ? <Text style={styles.errorText}>{emailError}</Text> : null}
 
@@ -113,6 +115,7 @@ export default function Student() {
         onChangeText={setPassword}
         secureTextEntry={true}
         style={styles.TextInput}
+        placeholderTextColor="black"
       />
 
       {/* Password Checklist */}
@@ -162,6 +165,7 @@ const styles = StyleSheet.create({
   logo: {
     width: 250,
     height: 250,
+    marginTop:25,
   },
   heading: {
     fontSize: 30,
@@ -174,6 +178,7 @@ const styles = StyleSheet.create({
     fontSize: 18,
     marginTop: 20,
     borderRadius: 8,
+    color: Colors.BLACK,
   },
   errorText: {
     color: "red",

@@ -60,10 +60,12 @@ export default function Stdacc() {
       }}>Welcome Back</Text>
 
       
-      <TextInput placeholder='Email' 
+      <TextInput placeholder='Email'
+      placeholderTextColor="black" 
       onChangeText={(value)=>setEmail(value)}
       style={styles.TextInput}></TextInput>
       <TextInput placeholder='Password' 
+      placeholderTextColor="black"
       onChangeText={(value)=>setPassword(value)}
       secureTextEntry={true} style={styles.TextInput}></TextInput>
       <TouchableOpacity 
@@ -117,6 +119,7 @@ const styles=StyleSheet.create({
     padding: 15,
     fontSize: 18,
     marginTop: 20,
-    borderRadius:8
+    borderRadius:8,
+    color: Colors.BLACK,
   }
 })

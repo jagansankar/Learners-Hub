@@ -301,7 +301,7 @@ export default function Profile() {
           <View style={styles.avatarSection}>
             <View style={styles.avatarContainer}>
               <Image 
-                source={require('../../assets/images/logo.png')} 
+                source={require('../../assets/images/profile.png')} 
                 style={styles.avatar}
               />
               <View style={styles.onlineIndicator} />
@@ -499,11 +499,11 @@ const styles = StyleSheet.create({
   profileBadge: {
     flexDirection: 'row',
     alignItems: 'center',
-    backgroundColor: 'rgba(250, 8, 8, 0.2)',
+    backgroundColor: 'rgba(91, 89, 89, 0.61)',
     paddingHorizontal: 12,
     paddingVertical: 6,
     borderRadius: 20,
-    marginTop: 50
+    marginTop: -20,
   },
   profileBadgeText: {
     fontFamily: 'outfit-medium',
